@@ -25,7 +25,7 @@ mysql -e "FLUSH PRIVILEGES;"
 # TELECHARGEMENT FUSIONINVENTORY
 cd /var/www/html/glpi/plugins/
 
-wget -O https://github.com/fusioninventory/fusioninventory-for-glpi/archive/refs/tags/glpi10.0.6+1.1.tar.gz
+wget https://github.com/fusioninventory/fusioninventory-for-glpi/archive/refs/tags/glpi10.0.6+1.1.tar.gz
 
 tar xzvf glpi10.0.6+1.1.tar.gz
 
